@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-primario">
+    <div class="flex flex-col items-center justify-center h-screen gap-5">
+      <h1 class="text-3xl text-white font-bold underline bg-[#1e1e1e] p-4">
+        Hola mundo!
+      </h1>
+      <h1 class="text-center">Tailwind</h1>
+
+      <!-- HOVER -->
+      <div
+        class="bg-pink-400 px-6 py-2 rounded-lg hover:bg-red-400 cursor-pointer transition duration-1000"
+      >
+        <h3 class="text-white text-2xl">Hover me</h3>
+      </div>
+
+      <form action="" class="w-80 mx-auto rounder-lg p-6">
+        <input
+          type="text"
+          class="border-gray-500 w-full px-3 py-2 mb-4 rounded-md"
+          placeholder="Nombre"
+        />
+
+        <input
+          type="text"
+          class="border-gray-500 w-full px-3 py-2 mb-4 rounded-md"
+          placeholder="Correo"
+        />
+
+        <input
+          type="submit"
+          class="bg-blue-500 text-white w-full px-3 py-2 mb-4 rounded-md"
+          placeholder="Enviar"
+        />
+      </form>
+    </div>
+  </body>
+</html>
